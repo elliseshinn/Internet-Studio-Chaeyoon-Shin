@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Dinner RSVP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+    <body>
+  <main class="container" role="main" aria-labelledby="pageTitle">
+    <header>
+      <div>
+        <h1 id="pageTitle">A Dinner with Katseye — Guests of Honor (or Dishonor)</h1>
+      </div>
+      <div class="badge" aria-hidden="true">Tonight's Theme: Dinner with Some Katseye Members</div>
+    </header>
+
+    <section class="cards" aria-label="Guest list and menus">
+
+      <!-- GUEST 1: Yoonchae -->
+      <article class="card" id="yoonchae" aria-labelledby="yoonchaeTitle">
+        <figure class="media" aria-hidden="false">
+          <img src="https://i.pinimg.com/736x/96/ac/d1/96acd1dcc437cf4ea98193b6b6420d0c.jpg">
+        </figure>
+
+        <div class="menu-section" aria-labelledby="menuYoon">
+          <h3 id="menuYoon" style="margin:0;font-size:15px;color:#dff3ff">Menu for Yoonchae</h3>
+            <p>If I could invite Yoonchae over for dinner, I think it would be such a fun night! She has such a bright and lively personality that instantly brings energy to any space she’s in and I’d love to hear her talk about her journey so far and what keeps her motivated, since she seems to carry a natural passion for performing. Also, she just seems to have a funny humor and I'd like to be her friend.</p>
+          <ul class="menu" aria-describedby="menuYoon">
+            <li><strong>Appetizers:</strong>Bruschetta, Mixed Green Salad/li>
+            <li><strong>Main Course:</strong>Grilled Salmon, Steamed Vegetables</li>
+            <li><strong>Dessert:</strong> Chocolate Cake</li>
+          </ul>
+        </div>
+
+      <!-- GUEST 2: Sophia -->
+      <article class="card" id="sophia" aria-labelledby="sophiaTitle">
+        <figure class="media">
+          <img src="https://i.pinimg.com/736x/8d/34/f2/8d34f2ff9a8820160d8802e2b6fd7efc.jpg">
+        </figure>
+
+        <div class="menu-section" aria-labelledby="menuSoph">
+          <h3 id="menuSoph" style="margin:0;font-size:15px;color:#dff3ff">Menu for Sophia</h3>
+          <ul class="menu">
+            <p>Sophia would round out the evening perfectly with her natural charisma and charm. She has a confident energy that would make every story she shares feel exciting and engaging. She's a really good leader for her team, and also seems like an amazing friend to have. Plus she's gorgeous!</p>
+            <li><strong>Appetizers:</strong>Garlic Bread, Caesar Salad</li>
+            <li><strong>Main Course:</strong>Spaghetti Bolognese, Roasted Chicken</li>
+            <li><strong>Dessert:</strong>Tiramisu</li>
+          </ul>
+        </div>
+
+      <!-- GUEST 3: Lara -->
+      <article class="card" id="lara" aria-labelledby="laraTitle">
+        <figure class="media">
+          <img src="https://i.pinimg.com/736x/18/e6/65/18e665ed6e3a31f9318506ab347b063c.jpg">
+        </figure>
+
+        <div class="menu-section" aria-labelledby="menuLara">
+          <h3 id="menuLara" style="margin:0;font-size:15px;color:#dff3ff">Menu for Lara</h3>
+          <ul class="menu">
+            <p>Lara would be another amazing guest to share a meal with. She strikes me as someone very thoughtful and grounded, with a perspective that goes deeper than just talent. I’d enjoy asking her about how she balances her artistry with her personal life, and what inspires her when she creates. Her presence would bring a sense of calm and depth to the dinner, making the conversations meaningful and memorable.</p>
+
+            <li><strong>Appetizers:</strong>Cheese Platter, Tomato Soup</li>
+            <li><strong>Main Course:</strong> Beef Steak with Mashed Potatoes, Vegetable Stir Fry</li>
+            <li><strong>Dessert:</strong>Ice Cream Sundae</li>
+          </ul>
+        </div>
+
+    <section id="overlay">
+      <img src="">
+      <hr>
+      <form>
+        <h1>RSVP FORM!</h1>
+        <section class="firstname">
+          <label for="patty">What's your name?</label>
+                <input type="text" name="name" id="firstname">
+        </section>
+        <hr>
+         <section class="guest">
+          <span>Will you be bringing a guest?</span>
+          <br>
+          <input id="yes" type="radio" name="guest" value="yes">
+          <label for="yes">Yes</label>
+          <input id="no" type="radio" name="guest" value="no">
+          <label for="no">No</label>
+        </section>
+           <hr>
+        <section class="dietary">
+          <label for="amount">What are your dietary restrictions and preferences?</label>
+           <<textarea id="extra" name="extra" rows="3" cols="40">List restrictions/preferences here!</textarea>
+        <hr>
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+        
+      </form>
+    </section>
+  </main>
+</body>
+</html>
+</html>
