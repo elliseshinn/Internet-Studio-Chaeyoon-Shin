@@ -3,3 +3,54 @@
 * {
 	font-family: Arial;
 }
+
+html {
+    padding-top: 25px;
+    background-color: #8CD1C2;
+} 
+
+img {
+
+    width: 500px;
+    height: 350px;
+    border-color: white;
+    border: solid;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+p {
+    font-family: "Playfair Display", serif;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+hr {
+    border: none; 
+    border-top: 1px dotted; 
+    margin: 20px 0; /* Add some space above and below */
+  }
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
