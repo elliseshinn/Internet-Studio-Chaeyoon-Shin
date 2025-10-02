@@ -36,6 +36,15 @@ p {
 
 }
 
+li {
+    font-family: "Playfair Display", serif;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
 hr {
     border: none; 
     border-top: 1px dotted; 
