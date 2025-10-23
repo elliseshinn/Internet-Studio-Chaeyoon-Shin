@@ -1,0 +1,69 @@
+html {
+    padding-top: 25px;
+    background-color: #FFD8EA;
+}
+
+body {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #E5A4CB;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/amaranth-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/arvo-v23-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/pacifico-v23-latin-regular.woff2') format('woff2');
+}
+
+p {
+    font-family: "Amaranth", sans-serif;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Amaranth", sans-serif;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: "Arvo", sans-serif;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.text-size-h3 { font-size: 1.95em; }
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  align-content: center;
+}
