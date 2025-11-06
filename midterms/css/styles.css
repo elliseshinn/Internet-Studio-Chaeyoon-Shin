@@ -123,3 +123,14 @@ nav a:hover {
   to {
     -webkit-transform: rotate(0) scale(1);
   }
+
+  form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+
+form hr {
+  width: 15%;
+}
