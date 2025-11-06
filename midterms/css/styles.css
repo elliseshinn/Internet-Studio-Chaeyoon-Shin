@@ -74,15 +74,6 @@ img {
 .container { height: 900px; }
 .container2 { height: 700px; }
 
-/* Footer */
-footer {
-    background-color: #1a1a1a;
-    color: #f0f0f0;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
-
 /* Font Faces */
 @font-face {
   font-family: 'Emilys Candy';
