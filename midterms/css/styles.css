@@ -1,5 +1,7 @@
 html {
     background-color: #74CFE8;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 nav ul {
@@ -11,59 +13,122 @@ nav ul {
     gap: 40px;
 }
 
-nav ul li {
-    background-color: dodgerblue;
-    padding: 10px;
-}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #87D5FF;
+    border-radius: 5px;
+    border: 1px solid #87D5FF;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+ }
 
 body {
     width: 80%;
     padding: 20px;
-    padding-top: 20px;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    background-image: url(../images/yournames.jpeg);
-    background-repeat: no-repeat;
-    background-size: 1400px;
+    background: url(../images/yournames.jpeg) no-repeat;
+    background-size: 1600px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-h1 {
-    font-family: Emilys Candy;
-    color: #FFFFFF;
-}
-
-h2 {
-    font-family: Emilys Candy;
+/* Headings */
+h1, h2, li {
+    font-family: 'Emilys Candy', sans-serif;
     color: #FFFFFF;
 }
 
 p {
-    font-family: Chicle;
+    font-family: 'Chicle', sans-serif;
     color: #000000;
-    background-color: #FFFFFF;
-    padding-right: 20px;
+    text-align: center;
+    font-size: 1.25em;
+    margin-right: 30px;
 }
 
-/* emilys-candy-regular - latin */
+/* Images */
+img {
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+/* Containers */
+.container, .container2 {
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Optional specific heights */
+.container { height: 900px; }
+.container2 { height: 700px; }
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Font Faces */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Emilys Candy';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/emilys-candy-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  src: url('../fonts/emilys-candy-v21-latin-regular.woff2') format('woff2');
 }
 
-/* chicle-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Chicle';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/chicle-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  src: url('../fonts/chicle-v27-latin-regular.woff2') format('woff2');
 }
 
-.container {
-    padding: 20px;
-    size: 1000px;
+/* Links */
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
+nav a {
+  -webkit-transition: -webkit-transform .5s,
+                      background-color 1s ease-in .5s;
+  transition: transform .5s,
+              background-color 1s ease-in .5s;
+}
+nav a:hover {
+    background-color: teal;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+}
+@-webkit-keyframes logo {
+  from {
+    -webkit-transform: rotate(0) scale(.5);
+    left: 120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    -webkit-transform: rotate(0) scale(1);
+  }
