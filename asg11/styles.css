@@ -1,0 +1,174 @@
+img {
+  margin: 10px auto;
+  height: 300px;
+  width: 300px;
+}
+
+ul {
+  text-align: right;
+}
+
+
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/moroccan-flower.png);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0;
+  background-image: #FECEF1;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Comic Relief';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Itim";
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Itim', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+
+
+/*Sizing*/
+
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+    background-color: #89A1EF;
+}
+
+/*Header Section*/
+
+.header {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: #333;
+  margin:0;
+  border:0px;
+}
+
+/*Jumbotron Section*/
+
+.divider {
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
+.divider h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.divider h2 span {
+  color:#EF9CDA;
+}
+
+.divider p {
+  text-shadow: 0 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Members Section*/
+.cards {
+  background-color: #89A1EF
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+#members {
+  padding: 20px;
+  background-color: #89A1EF;
+  margin: 0;
+  text-align: center;
+}
+
+/* comic-relief-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Comic Relief';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/comic-relief-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* itim-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Itim';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/itim-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
