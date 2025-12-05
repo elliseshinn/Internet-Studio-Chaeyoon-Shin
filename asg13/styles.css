@@ -1,0 +1,75 @@
+/* Some selectors to get you started */
+
+html {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #AACEE5;
+}
+
+body {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #D5BCEB;
+}
+
+p {
+    text-align: center;
+    font-family: "Alice", serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Adamina", serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.box {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+.grid {
+display: grid;
+height: auto;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 10px;
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alice-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/alice-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+
+
+
